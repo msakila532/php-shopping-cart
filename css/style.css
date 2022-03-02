@@ -1,0 +1,21 @@
+body{
+    font-family: "Trirong", serif;
+}
+.image-resize{
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    object-position: center center;
+  }
+  .iimage-resize:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+  button {
+    padding:5px; cursor:pointer; background:grey; color:white; width:25px; height:15px; text-align:center; display:inline-block;
+   }
+   
+   .button:hover {
+   background:black;
+   }
